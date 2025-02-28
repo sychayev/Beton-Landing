@@ -5,6 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- <link rel="stylesheet" href="css/fontello.css"> -->
 		<link rel="stylesheet" href="css/style.min.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https/cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 		<title>Beton company</title>
 	</head>
 	<body>
@@ -273,9 +278,10 @@
 									</button>
 									<div class="order__checkbox">
 										<div class="order__checkbox-box">
-											<input type="checkbox" style="border: none;"/>
+											<input type="checkbox" style="border: none;" />
 										</div>
-										<p class="order__checkbox-text"><a href="#">Даю согласие на обработку данных</a></p>
+										<p class="order__checkbox-text"><a href="#">Даю согласие на обработку
+												данных</a></p>
 									</div>
 								</div>
 							</div>
@@ -285,18 +291,76 @@
 				<section class="choice">
 					<div class="choice__container _container">
 						<p class="choice__title">Нас выбрали</p>
-						<div class="choice__row">
-							<div class="choice__image"><img src="images/choiceblock-merlin.png" alt="Merlin image"></div>
-							<div class="choice__image"><img src="images/choiceblock-pyaterochka.png" alt="Pyaterochka image"></div>
-							<div class="choice__image"><img src="images/choiceblock-tires-factory.png" alt="Tires images"></div>
+						<!-- <div class="choice__row">
+							<div class="choice__image"><img src="images/choiceblock-merlin.png"
+									alt="Merlin image"></div>
+							<div class="choice__image"><img src="images/choiceblock-pyaterochka.png"
+									alt="Pyaterochka image"></div>
+							<div class="choice__image"><img
+									src="images/choiceblock-tires-factory.png" alt="Tires images"></div>
 						</div>
 						<div class="choice__row">
-							<div class="choice__image"><img src="images/choiceblock-PSM.png" alt="PSNM image"></div>
-							<div class="choice__image"><img src="images/choiceblock-sber.png" alt="Sber image"></div>
-							<div class="choice__image"><img src="images/choiceblock-ZOO.png" alt="ZOO image"></div>
+							<div class="choice__image"><img src="images/choiceblock-PSM.png"
+									alt="PSNM image"></div>
+							<div class="choice__image"><img src="images/choiceblock-sber.png"
+									alt="Sber image"></div>
+							<div class="choice__image"><img src="images/choiceblock-ZOO.png"
+									alt="ZOO image"></div>
+						</div> -->
+					</div>
+				</section>
+
+				<!--------------------------Slider Caruosel------------------------------>
+				<section class="carousel">
+					<div id="carusel" class="carousel__inner">
+						<div class="carousel__innner-column">
+							<div class="carousel__innner-column-image"><img
+									src="images/choiceblock-merlin.png"
+									alt="Merlin image">
+							</div>
+						</div>
+						<div class="carousel__innner-column">
+							<div class="carousel__innner-column-image"><img
+									src="images/choiceblock-pyaterochka.png"
+									alt="Pyaterochka image">
+							</div>
+						</div>
+						<div class="carousel__innner-column">
+							<div class="carousel__innner-column-image"><img
+									src="images/choiceblock-tires-factory.png"
+									alt="Tires image">
+							</div>
+						</div>
+						<div class="carousel__innner-column">
+							<div class="carousel__innner-column-image"><img
+									src="images/choiceblock-PSM.png"
+									alt="PSM image">
+							</div>
+						</div>
+						<div class="carousel__innner-column">
+							<div class="carousel__innner-column-image sber"><img
+									src="images/choiceblock-sber.png"
+									alt="PSM image">
+							</div>
+						</div>
+						<div class="carousel__innner-column">
+							<div class="carousel__innner-column-image"><img
+									src="images/choiceblock-ZOO.png"
+									alt="ZOO image">
+							</div>
+						</div>
+					</div>
+					<div class="carousel__arrow-body body-arrow">
+						<div class="body-arrow__body">
+							<div class="body-arrow__slick-prev"><img
+									src="images/bestseller-arrow-left.svg" alt="Arrow left"></div>
+							<div class="body-arrow__slick-next"><img
+									src="images/bestseller-arrow-right.svg" alt="Arrow right"></div>
 						</div>
 					</div>
 				</section>
+
+				<!--                            Section MAP -->
 				<section class="map">
 					<img src="images/map.png" alt>
 				</section>
@@ -348,8 +412,19 @@
 				</div>
 			</footer>
 		</div>
-		<script>
-			src="js/main.min.js"
-		</script>
+		<script defer src="js/main.min.js"></script>
+		<script defer src="js/swiper-bundle.min.js"></script>
+
+		<script defer src="js/slick.min.js"></script>
+
+		<script defer src="js/slick.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.6.1.min.js"
+			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			crossorigin="anonymous"></script>
+		<script
+			type="text/javascript"
+			src="https//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 	</body>
 </html>
