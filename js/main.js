@@ -326,8 +326,8 @@ menuBurger.addEventListener('click', () => {
 		// autoplaySpeed: 1000,
 		// prevArrow: '<button type="button" class="slick-prev"><img src="images/bestseller-arrow-left.svg"></button>',
 		// nextArrow: '<button type="button" class="slick-next"><img src="images/bestseller-arrow-right.svg"></button>',
-		prevArrow: '.body-arrow__slick-prev',
-		nextArrow: '.body-arrow__slick-next',
+		nextArrow: '.body-arrow__slick-prev',
+		prevArrow: '.body-arrow__slick-next',
 		// responsive: [
 		// 	{
 		// 		breakpoint: 992,
