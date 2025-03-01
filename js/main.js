@@ -308,7 +308,7 @@ menuBurger.addEventListener('click', () => {
 
 
 // ---------   SLICK SLIDER ------------------------
-$(document).ready(function () {
+	$(Document).ready(function(){
 		$('.carousel__inner').slick({
 		// fade: true,
 		// cssEase: 'linear',
@@ -378,5 +378,4 @@ $(document).ready(function () {
 			}
 		]
 	});
-
-});
+})
